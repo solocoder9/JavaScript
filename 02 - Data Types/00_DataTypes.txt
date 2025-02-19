@@ -1,0 +1,97 @@
+Data Types on JavaScript
+------------------------
+- JavaScript has a variety of data types that are used to represent different types of values.
+- These data types can be categorized into two types:
+        1> Primitive Data Types
+            1. Number
+            2. String
+            3. Boolean
+            4. null
+            5. undefined
+            6. BitInt
+            7. Symbol
+        2> Non-Primitive Data Types (Referenced)
+            1. Object
+            2. Array
+            3. Function
+
+
+1. Primitive Data Types
+-----------------------
+- Primitive data types are immutable and represent a single value.
+- These types are passed by value, meaning a new copy of the value is created when it is assigned 
+  to a variable.
+
+● Number
+~~~~~~~~
+- Represents numeric values, both integers and floating-point numbers.
+- Example:
+    let age = 30;
+    let price = 19.99;
+
+● String 
+~~~~~~~~
+- Represent a sequence of characters.
+- Example: 
+    let name = "John";
+    let message = 'Hello, world!';
+
+● Boolean
+~~~~~~~~~
+- Represents a logical value, either true of false.
+- Example: 
+    let isActive = true;
+    let isCompleted = false;
+
+● null
+~~~~~~
+- Represents the intentional absence of any value of object. 
+- It is a primitive value.
+- Example: 
+    let user = null;
+
+● undefined
+~~~~~~~~~~~
+- Represents a variable that has been declared but not assigned a value.
+- Example:
+    let x;
+    console.log(x); // Output: undefined
+
+● BigInt
+~~~~~~~~
+- A newer type that can represent very large integers that exceed the limit of the Number type.
+- Example:
+    let bigNumber = 1234567890123456789012345678901234567890n;
+
+● Symbol
+~~~~~~~~
+- Represents a unique and immutable value, often used for object property keys.
+- Example:
+    const uniqueSymbol = Symbol('description');
+
+
+2. Non-Primitive (Referenced)
+-----------------------------
+- Non-Primitive data types are mutable and are passed by reference, meaning when they are
+  assigned to a variable, both the new variable point to the same data in memory.
+
+● Object
+~~~~~~~~
+- A collection of key-value pairs, where keys are string (or symbols), and values can be any 
+  data types (including arrays and other objects).
+- Example: 
+    let person = { name: "John", age: 30 };
+
+● Array
+~~~~~~~
+- A type of object used to store a collection of values in an ordered manner.
+- Example:
+    let numbers = [10, 20, 30, 40];
+
+● Function
+~~~~~~~~~~
+- Functions in JavaScript are also objects, and the represent reusable blocks of code.
+- Example:
+    function greet(name) {
+    return `Hello, ${name}!`;
+    }
