@@ -1,0 +1,21 @@
+Control Flow in JavaScript
+--------------------------
+- Control flow determines the order in which statements are executed in a program.
+- JavaScript executes code line-by-line from top to bottom, but control flow structures can be
+  alter this sequence.
+- Control flow structure include:
+    1. Conditional Statements
+        ● if
+        ● if-else
+        ● if-else-if
+        ● switch
+    2. Looping Statements
+        ● for
+        ● while
+        ● do-while
+    3. Jump Statements
+        ● break
+        ● continue
+        ● return
+
+
