@@ -1,0 +1,33 @@
+Jump Statements
+---------------
+1> break Statement
+~~~~~~~~~~~~~~~~~~
+- Exits the loop or switch statement immediately.
+- Example:
+    for (let i = 1; i <= 5; i++) {
+        if (i === 3) {
+            break;
+        }
+        console.log(i);  // Output: 1 2
+    }
+
+2> continue Statement
+~~~~~~~~~~~~~~~~~~~~~
+- Skips the current iteration and moves to the next.
+- Example:
+    for (let i = 1; i <= 5; i++) {
+        if (i === 3) {
+            continue;
+        }
+        console.log(i);  // Output: 1 2 4 5
+    }
+
+3> return statement
+~~~~~~~~~~~~~~~~~~~
+- Stops execution of a function and returns a value.
+- Example:
+    function add(a, b) {
+        return a + b; // Stops here and returns value
+    }
+    console.log(add(5, 3));  // Output: 8
+
